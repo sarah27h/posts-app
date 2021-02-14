@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "title": "Fetch your posts from DevCommunity API with JavaScript",
+      "body": "In the article, you will learn how to make use of the FETCH API in JavaScript to fetch from an API. I will be making use of the Dev.to API. The Devcommunity API would really be helpful for individuals putting up a small portfolio and not ready to build a blog section. You can easily call all your posts on Devcommunity to you portfolio blog.",
+      "author": "Joel Olawanle",
+      "id": 1
+    },
+    {
+      "title": "How to mask your API key?",
+      "body": "Your API key should remain private and to achieve that Git should not track the API key. So today I will talk about two ways for masking API key, suppose you are developing a new app using React.js and have an API key to fetch news.",
+      "author": "Sarah Hassan",
+      "id": 2
+    },
+    {
+      "title": "The Ultimate Practical Guide to CSS Grid",
+      "body": "CSS Grid is a really powerful tool and I'll show you exactly why. The main objective of CSS Grid is to change completely how we design user interfaces based on grid systems. Grid was the first CSS module created specifically to solve layout problems that we've been working around since forever.",
+      "author": "Richard Nikolas",
+      "id": 3
+    }
+  ]
+}
