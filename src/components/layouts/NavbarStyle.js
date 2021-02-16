@@ -14,6 +14,10 @@ export const useStyles = makeStyles((theme) => ({
     color: 'white',
   },
 
+  alignRight: {
+    marginLeft: 'auto',
+  },
+
   right: {
     marginLeft: 'auto',
     marginRight: '20px',
