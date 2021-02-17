@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Dev Posts app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [About the Project](#about-the-project)
+- [Installing Instructions](#installing-instructions)
+- [ Offline First ](#offline-first)
+- [Credits](#credits)
+- [License](#license)
 
-In the project directory, you can run:
+## About the Project
 
-### `yarn start`
+This project is a single page application to write posts built using React.js.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- user-friendly interface
+- 100% Responsive for all screen sizes and
+- Accessible for screen reader users with
+- cross-browsers
+- Fetched data from a fake JSON API using AJAX.
+- You send POST and DELETE requests.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installing Instructions
 
-### `yarn test`
+- download zip folder or clone project > https://github.com/sarah27h/posts-app.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- For develoment mode
 
-### `yarn build`
+  - `cd` to your project directory
+  - install all project dependencies with `npm install`
+  - open project in browser and start the development server with `npm run start`
+  - you need another terminal to run our JSON fake server `npx json-server --watch data/db.json --port 8000`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- For production mode
+  - `cd` to your project directory
+  - install `yarn build`
+  - to serve with static Server
+  - `serve -s build`
+  - Local host at http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Offline First
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Note: Service Worker works only in production mode
 
-### `yarn eject`
+- `cd` to project directory
+- Use `serve -s build`
+- Make sure you are in online mode (offline not selected)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Credits
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React Docs https://reactjs.org/docs/getting-started.html
+- Stackoverflow
+- Quicksand font from Google Fonts
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the terms of the <a href="https://choosealicense.com/licenses/mit/" rel="nofollow">MIT</a> license.

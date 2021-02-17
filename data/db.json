@@ -17,6 +17,12 @@
       "body": "CSS Grid is a really powerful tool and I'll show you exactly why. The main objective of CSS Grid is to change completely how we design user interfaces based on grid systems. Grid was the first CSS module created specifically to solve layout problems that we've been working around since forever.",
       "author": "Richard Nikolas",
       "id": 3
+    },
+    {
+      "title": "Font Awesome 5 with Using a Package Manager + using Gulp 4",
+      "body": "In this article, we will learn how to add Font Awesome 5 by using the package manager and gulp 4.\n\n1- Install Font Awesome using a Package Manager\n\nnpm install --save @fortawesome/fontawesome-free\n\nor\n\nyarn add --dev @fortawesome/fontawesome-free\n\n2- Import Font Awesome in you main SCSS file\n\nImportant Tip: to avoid getting blank squares for font awesome icons you need adding those filesotf | ttf | eot | svg | woff(2) and they are in webfonts folder\nyou need to make sure webfonts folder and index.html are in your dist folder of production version",
+      "author": "Sarah Hassan",
+      "id": 11
     }
   ]
 }
