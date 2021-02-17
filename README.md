@@ -10,7 +10,7 @@
 
 ## About the Project
 
-This project is a single page application to write posts built using React.js.
+This project is a single page application to write posts built using React.js styled with Material-UI.
 
 - user-friendly interface
 - 100% Responsive for all screen sizes and
